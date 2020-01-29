@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+    background-image: url('./gettyimages-183062044-612x612.jpg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+.center {
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    margin-top: 0.2px;
+}
+
+#black {
+    color: rgb(8, 43, 8);
+}
+
+.drop-list {
+    margin: auto;
+    width: 35%;
+    min-width: 20em;
+    border-radius: 80px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    box-shadow: 0px 30px 16px 0px rgba(0, 0, 0, 0.2)
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+#drop-down {
+    width: 40%;
+    height: 30px;
+    border-radius: 80px;
+    box-shadow: 0px 20px 16px 0px rgba(0, 0, 0, 0.2)
+}
+
+option {
+    color: rgb(0, 0, 0);
+}
+
+.button {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.start {
+    border-radius: 80px;
+    width: 10%;
+    min-width: 10em;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+    box-shadow: 0px 30px 16px 0px rgba(0, 0, 0, 0.2);
+    font-family: cursive;
+}
+
+.start:hover {
+    background-color: rgb(2, 88, 31);
+}
